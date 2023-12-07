@@ -1,0 +1,43 @@
+button {
+  cursor: pointer;
+}
+body{
+    font-family:'Roboto', sans-serif; 
+    color:#434455;
+}
+.list {
+  list-style-type: none;
+}
+.link{
+  text-decoration: none;
+}
+.logo{
+color: #2E2F42;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;  /*21px 116.667%  line-height/ffont-size*/
+letter-spacing: 0.03em; /*letter-spacing/font-size*/
+text-transform: uppercase;
+}
+
+.menu-link{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02em;  
+    color: #2E2F42;
+}
+.menu-link:hover{
+    color:#404BBF;
+}
+
+.info-link{
+font-family: Roboto;
+font-size: 16px;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.info-link:hover{
+    color:#404BBF;
+}
