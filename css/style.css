@@ -38,7 +38,16 @@ color:#4d5ae5;
     color:#404bbf; 
 }
 
-
+.page-link{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;  
+  color: #2E2F42;
+}
+.page-link:focus{
+  color:#404bbf ;
+}
 
 .info-link{
 font-family: Roboto;
@@ -51,7 +60,7 @@ color: #434455;
     color:#404bbf ;
 }
 .info-link:active{
-  color:#404bbf ;
+    color:#404bbf ;
 }
 .header-logo-accent{
     color: #2e2f42;
