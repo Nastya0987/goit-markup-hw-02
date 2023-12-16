@@ -12,6 +12,7 @@ body{
 .link{
   text-decoration: none;
 }
+.min
 .logo{
 color: #2E2F42;
 font-size: 18px;
@@ -36,8 +37,16 @@ color:#4d5ae5;
 .menu-link:focus{
     color:#404bbf; 
 }
-.menu-link:active{
-  color:#404bbf; 
+
+.page-link{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;  
+  color: #2E2F42;
+}
+.page-link:focus{
+  color:#404bbf ;
 }
 
 .info-link{
@@ -84,6 +93,9 @@ letter-spacing: 0.02em;
 .button-main-order:focus{
   background-color:  #404BBF;
 
+}
+.button-main-order:hover{
+  background-color:  #404BBF;
 }
 .main-section-info{
  
