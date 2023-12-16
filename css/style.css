@@ -33,8 +33,11 @@ color:#4d5ae5;
 .menu-link:hover{
     color:#404bbf; 
 }
+.menu-link:focus{
+  color:#404bbf; 
+}
 .menu-link:active{
-  color: #404bbf;
+  color:#404bbf; 
 }
 
 .info-link{
@@ -56,7 +59,7 @@ color: #434455;
 .page-info{
     font-style: normal;
 }
-.main-section-1{
+.main-section-page{
   background-color: #2E2F42;
 }
 .conteiner_main-title{
@@ -78,15 +81,15 @@ letter-spacing: 0.02em;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
 }
-.button-main-order:hover{
+.button-main-order:focus{
   background-color:  #404BBF;
 
 }
-.main-section-2{
+.main-section-info{
  
   color:#434455;
 }
-.title-section-2{
+.title-section-info{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -99,7 +102,7 @@ letter-spacing: 0.02em;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.paragraph-section-2{
+.paragraph-section-info{
 color: var(--SLATE, #434455);
 
 /* Body */
@@ -111,16 +114,17 @@ line-height: 1.5; /* 150% */
 letter-spacing: 0.02em;
 }
 
-.main-section-3{
+.main-section-team{
 /* width: 1440px;
 height: 732px;
 flex-shrink: 0; */
 background-color: #F4F4FD;
 }
-.title_header_3{
+
+.title-our-team{
   color: var(--NAVY-BLUE, #2E2F42);
 text-align: center;
-
+text-transform: capitalize;
 /* Header 2 */
 font-family: Roboto;
 font-size: 36px;
@@ -128,7 +132,9 @@ font-style: normal;
 font-weight: 700;
 line-height: 1.11; /* 111.111% */
 letter-spacing: 0.02em;
-text-transform: capitalize;
+}
+.list-info-team{
+  background-color: #FFFFFF;
 }
 .main-development-team{
   background-color: #FFFFFF
@@ -142,9 +148,11 @@ text-transform: capitalize;
 }
 .title_main_info{
 font-weight: 500;
-font-size: 20px;
+font-size: 36px;
 line-height: 1.2;
-letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
+letter-spacing: 1.11em;
 color:#2e2f42
 }
 .paragraph-section-3{
@@ -153,10 +161,9 @@ color:#2e2f42
   letter-spacing: 0.02em;
 }
 
-.section_5{
+.foooter-main-section{
 
 background-color: #2E2F42;
-flex-shrink: 0;
 }
 .logo_name{
 color: var(--CLOUD, #F4F4FD);
@@ -180,5 +187,5 @@ line-height: 1.5; /* 150% */
 letter-spacing: 0.02em;
 }
 .footer-logo-accent{
-  color:f4f4fd;
+  color:#f4f4fd;
 }
