@@ -34,8 +34,8 @@ color:#4d5ae5;
 .menu-link:hover{
     color:#404bbf; 
 }
-.link-class:focus,
-.link-class:active {
+.menu-link:focus,
+.menu-link:active {
   color: #404bbf;}
 
 
