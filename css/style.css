@@ -81,7 +81,7 @@ letter-spacing: 0.02em;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
 }
-.button-main-order:hover{
+.button-main-order:focus{
   background-color:  #404BBF;
 
 }
@@ -115,9 +115,7 @@ letter-spacing: 0.02em;
 }
 
 .main-section-team{
-/* width: 1440px;
-height: 732px;
-flex-shrink: 0; */
+
 background-color: #F4F4FD;
 }
 
