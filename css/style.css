@@ -12,8 +12,8 @@ body{
 .link{
   text-decoration: none;
 }
-.min
-.logo{
+
+.logotipe{
 color: #2E2F42;
 font-size: 18px;
 font-weight: 700;
@@ -38,16 +38,7 @@ color:#4d5ae5;
     color:#404bbf; 
 }
 
-.page-link{
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.02em;  
-  color: #2E2F42;
-}
-.page-link:focus{
-  color:#404bbf ;
-}
+
 
 .info-link{
 font-family: Roboto;
