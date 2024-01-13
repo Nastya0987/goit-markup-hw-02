@@ -46,7 +46,9 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.info-link:hover,
+.info-link:hover {
+  color: #404bbf;
+}
 .info-link:focus {
   color: #404bbf;
 }
